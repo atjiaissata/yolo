@@ -1,0 +1,7 @@
+pyproject.toml
+modules/utils/config.py
+modules/yolov10/__init__.py
+yolo.egg-info/PKG-INFO
+yolo.egg-info/SOURCES.txt
+yolo.egg-info/dependency_links.txt
+yolo.egg-info/top_level.txt

@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel", "setuptools_scm[toml]>=8.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yolo"
+version = "0.0.1"
+authors = [
+    { name = "ATJI Aissata", email = "atjiaissata8@gmail.com" }
+]
+description = "DESCRIPTION"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+[tool.setuptools]
+packages = [
+    "modules",
+    "modules.utils",
+    "modules.yolov10"
+    ]
+
+[tool.black]
+line-length = 140
+target-version = ['py310', 'py311', 'py312']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+use_parentheses = true
+line_length = 140

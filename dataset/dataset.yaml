@@ -1,0 +1,10 @@
+train: D:/yolo/dataset/images/train
+val: D:/yolo/dataset/images/val
+nc: 6
+names:
+- log
+- rejet
+- tableau
+- lame-mince
+- lithological-column
+- Well-casing

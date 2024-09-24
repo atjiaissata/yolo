@@ -1,0 +1,13 @@
+{
+    "project": "yolov8",
+    "tracking_uri": "file:///D:/yolo/mlruns",
+    "dataset": "D:/yolo/dataset/dataset.yaml",
+    "epoch": 100,
+    "batch_size": 10,
+    "optimizer": "AdamW",
+    "seed":0,
+    "learning_rate": 0.0023,
+    "weight_decay": 1e-5,
+    "patience": 100
+
+}
